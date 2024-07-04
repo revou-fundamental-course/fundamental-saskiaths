@@ -1,1 +1,158 @@
 /* Ini CSS */
+
+* {
+  background-color: whitesmoke;
+}
+main {
+  padding: 32px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 99%;
+  background-color: #a48c7e;
+  border-radius: 30px;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 0.5rem;
+  background-color: #a48c7e;
+  color: #866255;
+  margin-left: auto;
+}
+
+.navbar-nav a.message-us {
+  margin-right: 2rem;
+}
+
+.logo-icon {
+  height: 50px;
+  width: 50px;
+  background-image: url(../assets/logo.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 0.4rem;
+}
+
+/* Kalau image nya ambil dari lokal tinggal url(../assets/*nama gambar*) */
+
+nav > a {
+  padding-left: 32px;
+  padding-right: 32px;
+  border: 1px solid;
+  color: #866255;
+}
+
+.welcome-section {
+  color: #866255;
+}
+
+.our-profiles {
+  color: #866255;
+}
+
+.porto-container {
+  color: #866255;
+}
+
+.banner-container {
+  height: 500px;
+  width: 100%;
+  border: 1px burlywood;
+  border-radius: 1%;
+  background-image: url(../assets/I\ capture\ every\ moment.png);
+  display: flex;
+  text-align: center;
+}
+
+.profile-icon {
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  border-radius: 60%;
+}
+
+/* Pakai combination class buat gambar profile icon nya beda-beda, di jadikan profile 1 profile 2 dst */
+
+.profile-1 {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url(../assets/logo-insta.jpg);
+  background-size: cover;
+}
+
+.profile-2 {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url(../assets/logo-gmail.png);
+  background-size: contain;
+  border-radius: 2%;
+}
+
+.profile-3 {
+  background-image: url(https://picsum.photos/500/500);
+}
+
+.profile-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile-item {
+  flex: 1;
+  text-align: -webkit-center;
+}
+
+.foto-1 {
+  height: 400px;
+  width: 400px;
+  border: 1px burlywood;
+  border-radius: 1%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.foto-2 {
+  height: 400px;
+  width: 400px;
+  border: 1px burlywood;
+  border-radius: 1%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.divider {
+  flex: 2;
+}
+
+.form-data {
+  display: flex;
+}
+
+.message {
+  background-color: #ffffff;
+}
+
+button {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 2rem 0;
+}

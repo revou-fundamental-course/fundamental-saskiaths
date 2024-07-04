@@ -3,9 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portofolio Saskia</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Ini header nav -->
+    <header class="nav-container">
+        <div class="logo-icon"></div>
+        <nav class="navbar-nav">
+            <a href="#">Home</a>
+            <a href="#our-profile">Our Profile</a>
+            <a href="#porto-container">Portofolio</a>
+            <a class="message-us">Message Us</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Ini home content -->
+        <section class="welcome-section">
+        <br/>
+        <br/>
+            <header>
+                <h1>Hi User, Welcome to Website</h1>
+            </header>
+
+            <article>
+                <p>Let me show you what you will get!</p>
+
+                <div class="banner-container">
+                </div>
+            </article>
+        </section>
+
+        <!-- Ini Our Profile -->
+        
+        <section class="our-profiles" id="our-profile">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+            <header>
+                <h1>Our Profile</h1>
+            </header>
+
+            <article class="profile-content">
+                <div class="profile-item">
+                    <a class="profile-1" href="https://www.instagram.com/saskiaths">
+                    </a>
+                    <a href="https://www.instagram.com/saskiaths" style="text-decoration: none;">
+                        <p>Instagram</p>  
+                    </a>                
+                </div>
+
+                <div class="profile-item">
+                    <a class="profile-2" href="mailto:?to=saskiatheo137@gmail.com&subject=&body=">
+                    </a>
+                    <a href="mailto:?to=saskiatheo137@gmail.com&subject=&body=" style="text-decoration: none;">
+                        <p style="color: #866255;">Email</p>
+                    </a>
+                </div>
+                
+
+                <div class="profile-item">
+                    <div class="profile-icon profile-3"></div>
+                    <p>Profile 3</p>
+                </div>
+                
+                <div class="divider"></div>
+            </article>
+        </section>
+        <!-- Ini Portofolio -->
+        <section class="porto-container" id="porto-container">
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <header>
+                <h1>Portofolio</h1>
+            </header>
+
+            <article>
+            <div class="foto-container">
+                <div class="foto-1">
+                    <img src="./assets/20240523_195242.jpg">
+                </div>
+                <div class="foto-2">
+                    <img src="./assets/IMG_7240.JPG">
+                </div>
+            </div>
+            </article>
+        </section>
     
+
+        <!-- Message Us -->
+              <!-- Message start -->
+        <section class="message">
+            <div>
+            <h1>Message Us</h1>       
+            </div>
+            <div class="form-data"></div>
+            <div>
+            <article style="display: flex; justify-content: space-between";>
+                <form action="">
+                    <table>
+                    <tr>
+                        <td><label for="name">Nama:</label></td>
+                        <td><input type="text" id="name" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="born">Tanggal Lahir:</label></td>
+                        <td><input type="date" id="born" name="born" required/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Jenis Kelamin:</label></td>
+                        <td>
+                            <div class="female-cont">
+                                <input type="radio" id="male" name="gender" value="male" required/>
+                                <label for="male">Laki-laki</label>
+                            </div>
+                            <div class="female-cont">
+                                <input type="radio" id="female" name="gender" value="female" required />
+                                <label for="female">Perempuan</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Pesan:</label></td>
+                        <td>
+                            <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            cols="40"></textarea><br />
+                        </td>
+                    </tr>
+                    </table>
+                    <button type="button" onclick="validateForm()">Submit</button>
+                </form>
+            </article>
+            </div>
+                <div id="result" class="result" style="border: 1px solid; height: 100px; width: 100px;">BUAT HASIL KEDUA</div>
+            </div>
+        </section>
+
+      <!-- Message end -->
+    </main>
+    <script src="./js/script.js"></script>
+    <!-- Footer start -->
+
+    <footer>
+      <p>Created by Saskia</p>
+    </footer>
+    <!-- Footer start -->
+    </main>
+
 </body>
 </html>
